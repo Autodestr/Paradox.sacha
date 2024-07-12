@@ -30,6 +30,7 @@ const bukovi = ref([
   },
   {
     label: 'Контакты',
+    routName: 'Contacts'
   }
 ]);
 

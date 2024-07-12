@@ -1,16 +1,14 @@
-export interface Chelick {
+export interface User {
     name: string,
     surname: string,
-    hui: number,
-    staff?: string,
-    chepuha?: boolean,
+    id: number,
     cash?: string,
     age?: number
 }
 
 export enum Valuta {
 Rub= "рублей",
-    Dollar = "бачей",
+    Dollar = "долларов",
     Yan = "юаней",
     Kop = "копеек",
     Tenge ="тенге"

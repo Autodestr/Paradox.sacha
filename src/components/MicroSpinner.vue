@@ -4,7 +4,7 @@ import { Beer } from 'lucide-vue-next';
 
 <template>
 
-<div class="h-20 w-20 justify-center items-center m-10 animate-[spin_3s_linear_infinite]">
+<div class="h-20 w-20 justify-center items-center m-10 animate-spin">
   <Beer color="red" class="relative left-7 top-1"/>
   <Beer color="red" class="relative  rotate-45 bottom-3.5 left-11.5"/>
   <Beer color="red" class="relative rotate-90 bottom-5 left-13"/>

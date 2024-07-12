@@ -15,6 +15,15 @@ const routes: RouteRecordRaw[] = [
 
 
   },
+
+  {
+    path:  '/contacts',
+    name:  'Contacts',
+    component: () => import('@/views/Contacts.vue')
+
+
+  },
+
 ]
 
 export const navigate = (name: string) => router.push({ name })
